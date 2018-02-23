@@ -17,19 +17,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@mipmap/pp1_round" />
+        app:srcCompat="@mipmap/teacher_round" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Kenai Lopez"
+        android:text="Melinda May"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="elkeny.lpz@fcfm.com" />
+        android:text="melinda.may@fcfm.com" />
 
 </LinearLayout>
