@@ -43,8 +43,7 @@
                             android:layout_height="70dp"
                             android:layout_margin="@dimen/activity_horizontal_margin"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/pp1_round"
-                            app:srcCompat="@mipmap/pp1_round" />
+                            android:src="@mipmap/pp1_round" />
 
                         <TextView
                             android:layout_width="121dp"
@@ -52,7 +51,7 @@
                             android:layout_gravity="center"
                             android:baselineAligned="false"
                             android:fontFamily="sans-serif"
-                            android:text="Kenai Windu"
+                            android:text="@string/student1"
                             android:textAlignment="viewStart"
                             android:textAppearance="@android:style/TextAppearance"
                             android:typeface="normal"
@@ -67,8 +66,7 @@
                         android:layout_height="70dp"
                         android:layout_margin="@dimen/activity_horizontal_margin"
                         android:scaleType="centerCrop"
-                        android:src="@mipmap/pp2_round"
-                        app:srcCompat="@mipmap/pp2_round" />
+                        android:src="@mipmap/pp2_round" />
 
                         <TextView
                             android:layout_width="121dp"
@@ -76,7 +74,7 @@
                             android:layout_gravity="center"
                             android:baselineAligned="false"
                             android:fontFamily="sans-serif"
-                            android:text="Sandra Melo"
+                            android:text="@string/student2"
                             android:textAlignment="viewStart"
                             android:textAppearance="@android:style/TextAppearance"
                             android:typeface="normal"
@@ -90,15 +88,14 @@
                         android:layout_height="70dp"
                         android:layout_margin="@dimen/activity_horizontal_margin"
                         android:scaleType="centerCrop"
-                        android:src="@mipmap/pp3_round"
-                        app:srcCompat="@mipmap/pp3_round" />
+                        android:src="@mipmap/pp3_round" />
                         <TextView
                             android:layout_width="121dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:baselineAligned="false"
                             android:fontFamily="sans-serif"
-                            android:text="Hiroshi Tanaka"
+                            android:text="@string/student3"
                             android:textAlignment="viewStart"
                             android:textAppearance="@android:style/TextAppearance"
                             android:typeface="normal"
@@ -126,7 +123,7 @@
                             android:scaleType="centerCrop"
                             android:src="@mipmap/pp1_round"
 
-                            app:srcCompat="@mipmap/pp1_round" />
+                            />
 
                         <TextView
                             android:layout_width="121dp"
@@ -134,7 +131,7 @@
                             android:layout_gravity="center"
                             android:baselineAligned="false"
                             android:fontFamily="sans-serif"
-                            android:text="Kenai Windu"
+                            android:text="@string/student1"
                             android:textAlignment="center"
                             android:textAppearance="@android:style/TextAppearance"
                             android:typeface="normal"
@@ -150,8 +147,7 @@
                             android:layout_height="70dp"
                             android:layout_margin="@dimen/activity_horizontal_margin"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/checked_round"
-                            app:srcCompat="@mipmap/checked_round" />
+                            android:src="@mipmap/checked_round" />
 
                         <TextView
                             android:layout_width="121dp"
@@ -159,7 +155,7 @@
                             android:layout_gravity="center"
                             android:baselineAligned="false"
                             android:fontFamily="sans-serif"
-                            android:text="Sandra Melo"
+                            android:text="@string/student2"
                             android:textAlignment="center"
                             android:textAppearance="@android:style/TextAppearance"
                             android:typeface="normal"
@@ -174,15 +170,14 @@
                             android:layout_height="70dp"
                             android:layout_margin="@dimen/activity_horizontal_margin"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/pp3_round"
-                            app:srcCompat="@mipmap/pp3_round" />
+                            android:src="@mipmap/pp3_round" />
                         <TextView
                             android:layout_width="121dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:baselineAligned="false"
                             android:fontFamily="sans-serif"
-                            android:text="Hiroshi Tanaka"
+                            android:text="@string/student3"
                             android:textAlignment="center"
                             android:textAppearance="@android:style/TextAppearance"
                             android:typeface="normal"
@@ -215,8 +210,7 @@
                         android:layout_height="70dp"
                         android:layout_margin="@dimen/activity_horizontal_margin"
                         android:scaleType="centerCrop"
-                        android:src="@mipmap/pp3_round"
-                        app:srcCompat="@mipmap/pp3_round" />
+                        android:src="@mipmap/pp3_round" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -256,8 +250,7 @@
                             android:layout_height="70dp"
                             android:layout_margin="@dimen/activity_horizontal_margin"
                             android:scaleType="centerCrop"
-                            android:src="@mipmap/directora_round"
-                            app:srcCompat="@mipmap/directora_round" />
+                            android:src="@mipmap/directora_round" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -293,12 +286,5 @@
             </FrameLayout>
         </LinearLayout>
     </TabHost>
-
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
 
 </android.support.constraint.ConstraintLayout>

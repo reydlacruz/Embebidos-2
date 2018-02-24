@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Hoy"
+            android:textColor="@color/feed"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_checked_round" />
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:baselineAligned="false"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkedBy"
+
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:baselineAligned="true"
+                android:fontFamily="sans-serif"
+                android:text="@string/teacher1"
+
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Ayer"
+            android:textColor="@color/feed"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/early_round" />
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:baselineAligned="false"
+                android:fontFamily="sans-serif"
+                android:text="@string/earlyBy"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textAppearance="@android:style/TextAppearance"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:baselineAligned="true"
+                android:fontFamily="sans-serif"
+                android:text="@string/teacher1"
+
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textStyle="bold"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_checked_round" />
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:baselineAligned="false"
+                android:fontFamily="sans-serif"
+                android:text="@string/checkedBy"
+
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:baselineAligned="true"
+                android:fontFamily="sans-serif"
+                android:text="@string/teacher1"
+
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance"
+                android:textStyle="bold"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

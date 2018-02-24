@@ -19,6 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SingUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".wall" />
+        <activity
+            android:name=".StudentFeed"
+            android:label="@string/title_activity_student_feed"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

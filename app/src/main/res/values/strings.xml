@@ -1,8 +1,17 @@
 <resources>
-    <string name="app_name">Pajarito</string>
+    <string name="app_name">AppName</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="student1">Kenai Windu</string>
+    <string name="student2">Sandra Melo</string>
+    <string name="student3">Hiroshi Tanaka</string>
+    <string name="checkedBy">Asistencia registrada por: </string>
+    <string name="earlyBy">Salida temprano registrada por: </string>
+    <string name="teacher1">Melinda May</string>
+    <string name="title_activity_student_feed">StudentFeed</string>
 </resources>
